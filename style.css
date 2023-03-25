@@ -10,10 +10,30 @@ body {
 	padding-top: 80px;
 }
 
+.btn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 1.2em;
+	position: absolute;
+	bottom: 20px;
+}
+
 h1 {
 	font-size: 2.3em;
     line-height: 1.3em;
 	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+#main_contenido_agradecimientos h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 0;
 	text-align: center;
 	font-weight: 300;
 }
@@ -162,10 +182,14 @@ nav ul li a:hover {
 #main-content .content  .correoypassword{
 	text-align: center;
 }
-	#main-content header,
-	#main-content .content {
-		padding: 20px;
-	}
+#main-content header,
+#main-content .content {
+	padding: 20px;
+}
+
+#main_contenido_agradecimientos .contenido_agradecimientos {
+	padding: 20px;
+}
 
 
 
@@ -185,3 +209,5 @@ nav ul li a:hover {
 #main-footer p {
 	margin: 0;
 }
+
+
