@@ -8,10 +8,11 @@ body {
 	line-height: 1.5em;
 	text-align: justify;
 	padding-top: 80px;
+	background-image: url('https://www.telemadrid.es/2022/08/04/noticias/cultura/_2475062569_34902378_1300x731.jpg');
 }
 
 .btn {
-	background-color: #4CAF50;
+	background-color: rgb(129, 67, 67);
 	color: white;
 	padding: 10px 20px;
 	border: none;
@@ -19,7 +20,7 @@ body {
 	text-decoration: none;
 	font-size: 1.2em;
 	position: absolute;
-	bottom: 20px;
+	bottom: 40px;
 }
 
 h1 {
@@ -30,13 +31,6 @@ h1 {
 	font-weight: 300;
 }
 
-#main_contenido_agradecimientos h1 {
-	font-size: 2.3em;
-	line-height: 1.3em;
-	margin: 0;
-	text-align: center;
-	font-weight: 300;
-}
 
 h2 {
 	font-size: 1.8em;
@@ -89,6 +83,11 @@ p {
 .forma {
 	padding: 0 20px 0 0;
 	float: left;
+}
+
+.forma2 {
+	padding: 0 0 0 20px;
+	float: right;
 }
 
 .bold {
@@ -179,7 +178,7 @@ nav ul li a:hover {
 	margin: 20px;
 }
 
-#main-content .content  .correoypassword{
+.correoypassword{
 	text-align: center;
 }
 #main-content header,
@@ -187,10 +186,22 @@ nav ul li a:hover {
 	padding: 20px;
 }
 
-#main_contenido_agradecimientos .contenido_agradecimientos {
+.contenido_agradecimientos {
 	padding: 20px;
 }
 
+#main_contenido_agradecimientos h1  {
+	color: whitesmoke
+}
+
+#main_contenido_agradecimientos h6 {
+	color: white;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
 
 
 /************
@@ -209,5 +220,3 @@ nav ul li a:hover {
 #main-footer p {
 	margin: 0;
 }
-
-
