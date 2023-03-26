@@ -209,16 +209,29 @@ nav ul li a:hover {
 }
 
 #main_contenido_agradecimientos h1  {
-	color: whitesmoke
+	font-size: 2.3em;
+    line-height: 1.3em;
+	text-align: center;
+	font-weight: 300;
+	background-color: rgb(129, 67, 67);
+	color: white;
+	padding: 10px 0;
+	border-radius: 5px;
+	width: 60%;
+	margin: 0 auto;
 }
 
 #main_contenido_agradecimientos h6 {
-	color: white;
 	font-size: 1.3em;
 	line-height: 1.3em;
-	margin: 15px 0;
 	text-align: center;
 	font-weight: 300;
+	background-color: rgb(129, 67, 67);
+	color: white;
+	padding: 10px 0;
+	border-radius: 5px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 /************
