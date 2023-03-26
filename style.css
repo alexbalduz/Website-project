@@ -10,7 +10,6 @@ body {
 	padding-top: 80px;
 	background-image: url('https://www.telemadrid.es/2022/08/04/noticias/cultura/_2475062569_34902378_1300x731.jpg');
 }
-
 .btn {
 	background-color: rgb(129, 67, 67);
 	color: white;
@@ -164,7 +163,6 @@ nav {
 nav ul {
 	margin: 0;
 	padding: 0;
-	list-style: none;
 	padding-right: 20px;
 }
 
@@ -174,8 +172,9 @@ nav ul li {
 }
 
 nav ul li a {
-	display: block;
+	display: inline-block;
 	padding: 10px 10px;
+	text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -237,4 +236,79 @@ nav ul li a:hover {
 
 #main-footer p {
 	margin: 0;
+}
+
+/*Media Queries*/
+/*Small (mobile)*/
+@media (max-width: 767px) {
+    .padre {
+        display: block;
+    }
+}
+
+/*Medium (tablet)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.padre {
+		display: block;
+	}
+	nav {
+		float: right;
+	}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			padding-right: 20px;
+		}
+
+			nav ul li {
+				display: inline-block;
+				line-height: 80px;
+			}
+
+				nav ul li a {
+					display: block;
+					padding: 0 10px;
+				}
+	#logo-header {
+		padding: 15px 0 0 20px;
+	}
+	#main-content {
+		margin: 20px auto;
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+	}
+	#main-footer {
+		margin-top: auto;
+	}
+}
+
+/*Large (desktop)*/
+@media (min-width: 992px) {
+	nav {
+		float: right;
+	}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			padding-right: 20px;
+		}
+
+			nav ul li {
+				display: inline-block;
+				line-height: 80px;
+			}
+
+				nav ul li a {
+					display: block;
+					padding: 0 10px;
+				}
+	#logo-header {
+		padding: 15px 0 0 20px;
+	}
+	#main-content {
+		margin: 20px auto;
+	}
 }

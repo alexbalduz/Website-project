@@ -6,98 +6,100 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <header id="main-header">
+        <div class="container">
+            <header id="main-header">
 
-            <a id="logo-header" href="#">
-                <span class="site-name">La tierra media</span>
-            </a> <!-- / #logo-header -->
+                <a id="logo-header" href="#">
+                    <span class="site-name">La tierra media</span>
+                </a> <!-- / #logo-header -->
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pagina1.html">Peliculas</a></li>
-                    <li><a href="pagina2.html">Noticias</a></li>
-                    <li><a href="pagina3.html">Registrate</a></li>
-                </ul>
-            </nav><!-- / nav -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pagina1.html">Peliculas</a></li>
+                        <li><a href="pagina2.html">Noticias</a></li>
+                        <li><a href="pagina3.html">Registrate</a></li>
+                    </ul>
+                </nav><!-- / nav -->
 
-        </header><!-- / #main-header -->
+            </header><!-- / #main-header -->
 
-        <section id="main-content">
+            <section id="main-content">
 
-            <article>
-                <h4>
-                    Suscribete para enterarte de todas las noticias y novedades disponibles
-                </h4>
+                <article>
+                    <h4>
+                        Suscribete para enterarte de todas las noticias y novedades disponibles
+                    </h4>
 
-                <div class="content">
-                    <form action="pagina4.html" method="get">
-                        <div class="correoypassword">
-                            <label for="correo">¿Cuál es tu correo electrónico?:</label>
-                            <input type="email" id="correo" name="correo">
-                            <br><br>
-                            <label for="password">Escribe una contraseña:</label>
-                            <input type="password" id="password" name="password">
-                            <br><br>
-                            <label for="password">Confirma tu contraseña:</label>
-                            <input type="password" id="password" name="password">
-                            <br><br>
-                        </div>
-                        <div>
-                            <h5>
-                                ¿Quieres unirte al foro?
-                            </h5>
+                    <div class="content">
+                        <form action="pagina4.html" method="get">
+                            <div class="correoypassword">
+                                <label for="correo">¿Cuál es tu correo electrónico?:</label>
+                                <input type="email" id="correo" name="correo">
+                                <br><br>
+                                <label for="password">Escribe una contraseña:</label>
+                                <input type="password" id="password" name="password">
+                                <br><br>
+                                <label for="password">Confirma tu contraseña:</label>
+                                <input type="password" id="password" name="password">
+                                <br><br>
+                            </div>
+                            <div>
+                                <h5>
+                                    ¿Quieres unirte al foro?
+                                </h5>
 
-                            <label for="foro">Sí</label>
-                            <input type="radio" id="foro" name="genero" value="Sí">
-                            <label for="foro">No</label>
-                            <input type="radio" id="foro" name="foro" value="No">
-                            <br><br>
-                        </div>
-                        <div>
-                            <h5>
-                                ¿En qué áreas muestras más interés?
-                            </h5>
-                            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Películas</label><br>
-                            <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Libros</label><br>
-                            <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Merchandising</label><br>
-                            <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Productos</label>
-                            <br><br>
-                        </div>
-                        <div>
-                            <h5>
-                                ¿Quieres recibir ofertas de nuevos productos?
-                            </h5>
-                            <label for="foro">Sí</label>
-                            <input type="radio" id="foro" name="genero" value="Sí">
+                                <label for="foro">Sí</label>
+                                <input type="radio" id="foro" name="genero" value="Sí">
+                                <label for="foro">No</label>
+                                <input type="radio" id="foro" name="foro" value="No">
+                                <br><br>
+                            </div>
+                            <div>
+                                <h5>
+                                    ¿En qué áreas muestras más interés?
+                                </h5>
+                                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Películas</label><br>
+                                <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Libros</label><br>
+                                <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Merchandising</label><br>
+                                <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Productos</label>
+                                <br><br>
+                            </div>
+                            <div>
+                                <h5>
+                                    ¿Quieres recibir ofertas de nuevos productos?
+                                </h5>
+                                <label for="foro">Sí</label>
+                                <input type="radio" id="foro" name="genero" value="Sí">
 
-                            <label for="foro">No</label>
-                            <input type="radio" id="foro" name="foro" value="No">
-                            <br><br>
-                        </div>
-                        <div>
-                            <label for="textarea">¡Pregúntanos cualquier duda!</label><br>
-                            <textarea id="textarea"></textarea>
-                            <br><br>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" name="aceptar"> Aceptas los términos y condiciones.
-                            <br><br>
-                        </div>
-                        <div>
-                            <input type="submit" value="Suscribete">
-                            <br><br>
-                        </div>
-                        ¡Estén al tanto de todo lo que sucede en la tierra media!
-                    </form>
-                </div>
+                                <label for="foro">No</label>
+                                <input type="radio" id="foro" name="foro" value="No">
+                                <br><br>
+                            </div>
+                            <div>
+                                <label for="textarea">¡Pregúntanos cualquier duda!</label><br>
+                                <textarea id="textarea"></textarea>
+                                <br><br>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="aceptar"> Aceptas los términos y condiciones.
+                                <br><br>
+                            </div>
+                            <div>
+                                <input type="submit" value="Suscribete">
+                                <br><br>
+                            </div>
+                            ¡Estén al tanto de todo lo que sucede en la tierra media!
+                        </form>
+                    </div>
 
-            </article>	<!-- / article -->
+                </article>	<!-- / article -->
 
-        </section><!-- / #main-content -->
+            </section><!-- / #main-content -->
 
-        <footer id="main-footer">
-            <p>&copy; 2023 El señor de los anillos</p>
-        </footer><!-- / #main-footer -->
+            <footer id="main-footer">
+                <p>&copy; 2023 El señor de los anillos</p>
+            </footer><!-- / #main-footer -->
+        </div>
     </body>
 </html>
